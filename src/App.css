@@ -1,0 +1,269 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+}
+
+/* Header styles */
+.header-wrapper {
+  display: flex;
+}
+
+.header-info {
+  width: 640px;
+  margin-left: 80px;
+}
+
+/* NewsList styles */
+.news-categories {
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+
+.news-categories-datetime {
+  margin-left: auto;
+  font-size: 14px;
+  color: #777;
+}
+
+.news-list {
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+
+/* News styles */
+.news {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.news-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.news-text {
+  color: #333;
+}
+
+/* CurrencyRates styles */
+.currency-rates {
+  display: flex;
+  gap: 1rem;
+  margin: 10px 0 30px;
+  padding-left: 40px;
+  letter-spacing: 0.5px;
+}
+
+.rate {
+  color: #333;
+}
+
+.rate-name {
+  font-weight: 600;
+}
+
+.rate-value {
+  margin-left: 5px;
+}
+
+.rate-change {
+  margin-left: 5px;
+  color: #777
+}
+
+/* Widget styles */
+.widget {
+  padding: 38px 20px 0;
+  background-color: #fff;
+  text-align: left;
+}
+
+.widget-image {
+  width: 96px;
+  height: 96px;
+}
+
+.widget-title {
+  color: #1668d3;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: #114e9efe;
+  }
+}
+
+.widget h3 {
+  margin: 8px 0 8px 0;
+}
+
+.widget p {
+  margin-top: 0;
+  font-size: inherit;
+  color: #333;
+}
+
+/* Category styles */
+.category-item {
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 17px;
+  color: #1a73e8;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: #114e9efe;
+  }
+}
+
+/* SearchList styles */
+.search-categories {
+  display: flex;
+  padding-left: 120px;
+  margin-bottom: 16px;
+}
+
+/* SearchBar styles */
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
+.search-logo {
+  width: 100px;
+  height: auto;
+}
+
+.search-label {
+  width: 730px;
+}
+
+.search-input {
+  width: 100.5%;
+  padding: 8px;
+  border: 1px solid #f0d400;
+  border-radius: 4px 0 0 4px;
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+.search-button {
+  padding: 7px 21px;
+  font-size: 18px;
+  background-color: #f0d400;
+  color: #000000;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #dec400;
+  }
+}
+
+.search-promt {
+  font-size: inherit;
+  color: #333;
+  padding-left: 120px;
+}
+
+.search-example {
+  color: #777;
+}
+
+/* Advertisement styles */
+.advertisement {
+  display: flex;
+  padding-left: 120px;
+  max-width: 750px;
+  max-height: 8rem;
+  margin: 20px 0 40px;
+}
+
+.advertisement-banner {
+  max-width: 100%;
+  height: auto;
+}
+
+/* CardsList styles */
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 970px;
+  margin-left: 120px;
+}
+
+/* Card styles */
+.card {
+  max-width: 280px;
+  margin-bottom: -15px;
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+}
+
+.card-title {
+  color: #1668d3;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: #114e9efe;
+  }
+}
+
+/* CardContent styles */
+.card-item {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card-time, .card-resource {
+  margin-right: 4px;
+}
+
+.card-resource {
+  font-weight: 600;
+}
+
+.card-source {
+  margin-left: 8px;
+  color: #777;
+}
+
+/* Weather styles */
+.weather-info {
+  display: flex;
+  align-items: center;
+}
+
+.weather-icon {
+  display: flex;
+  align-items: center;
+}
+
+.temperature {
+  font-size: 25px;
+}
+
+.details {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+}
