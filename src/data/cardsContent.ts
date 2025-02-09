@@ -4,9 +4,9 @@ const cardsContent = [
     ]
   },
   { title: 'Эфир', content: [
-      { text: 'Управление как искусство', source: 'Успех' },
-      { text: 'Ночь. Мир в это время', source: 'earthTV' },
-      { text: 'Андрей Возн...', source: 'Совершенно секретно' },
+      { icon: '/ra-decomposition/images/ether.png', text: 'Управление как искусство', source: 'Успех' },
+      { icon: '/ra-decomposition/images/ether.png', text: 'Ночь. Мир в это время', source: 'earthTV' },
+      { icon: '/ra-decomposition/images/ether.png', text: 'Андрей Возн...', source: 'Совершенно секретно' },
     ]
   },
   { title: 'Посещаемое', content: [
@@ -15,7 +15,7 @@ const cardsContent = [
       { resource: 'Авто.ру', text: '— привод 4х4 до 500 000' },
     ]
   },
-  { title: 'Телепрограмма', content: [
+  { title: 'Телепрограмма', icon: '/ra-decomposition/images/ether-logo.png', content: [
       { time: '02:00', text: 'ТНТ.Best', source: 'ТНТ International' },
       { time: '02:15', text: 'Джинглики', source: 'Карусель INT' },
       { time: '02:25', text: 'Наедине со всеми', source: 'Первый' },

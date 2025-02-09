@@ -16,7 +16,7 @@ const CardsList = () => {
           </Card>
         ))}
         {cardsContent.map((card, index) => (
-          <Card key={index} title={card.title}>
+          <Card key={index} title={card.title} icon={card.icon}>
             <CardContent content={card.content} />
           </Card>
         ))}
